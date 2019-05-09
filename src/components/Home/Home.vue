@@ -9,6 +9,9 @@
                 <p class="main__description">
                     Я Frontend-разработчик, познакомимся?
                 </p>
+                <p class="main__description main__description--small">
+                    Кстати, это великое SPA-приложение я сделал за один день.
+                </p>
             </div>
         </div>
         <div class="main__background" />
