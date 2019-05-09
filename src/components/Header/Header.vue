@@ -27,6 +27,14 @@
                             Портфолио
                         </router-link>
                     </li>
+                    <li class="header__link-item">
+                        <router-link
+                            to='/stack'
+                            class="header__link"
+                        >
+                            Стек технологий
+                        </router-link>
+                    </li>
                 </ul>
             </nav>
         </div>

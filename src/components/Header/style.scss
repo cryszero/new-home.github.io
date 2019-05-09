@@ -6,10 +6,15 @@
 
 .header__link-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header .router-link-exact-active {
-    background: red;
+    background: $violet;
+
+    &:hover {
+        background: $violet;
+    }
 }
 
 .header__link {
@@ -18,6 +23,12 @@
     padding: 16px;
     color: $white;
     font-size: 24px;
-    transition: background 200ms;
+    transition: background $standart-transition;
     text-decoration: none;
+
+    outline: none;
+
+    &:hover {
+        background: $red;
+    }
 }

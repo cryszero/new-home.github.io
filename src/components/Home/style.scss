@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.main--home .main__background {
+    background-image: url('../../images/bg_1.png');
+
+	filter: blur(2px);
+}
+
+.main .container {
+    position: relative;
+    height: 100%;
+}
